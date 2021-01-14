@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body, html {
+    margin: 0;
+    padding: 0;
+	height: 100%;
+	background-color: #171c28;
+	color: #e7e7e7;
+}
+
+div{
+	display: block;
+	width: 400px;
+	margin: auto;
+}
+
+h1{
+	text-align: center;
+	color: #e7e7e7;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+}
+
+#completed-tasks span{
+	text-decoration: line-through;
+	font-size: 1.2em !important;
+}
